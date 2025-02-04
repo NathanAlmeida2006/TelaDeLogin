@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-form">
+        <div class="card">
+          <div class="card-content">
+            <form id="signupForm">
+              <div class="form-inner">
+                <div class="form-header">
+                  <h1>Criar uma conta</h1>
+                  <p>Seja bem-vindo ao nosso Ambiente</p>
+                </div>
+                <div class="form-group">
+                  <label for="name">Nome Completo</label>
+                  <input
+                    id="Nome"
+                    type="text"
+                    placeholder="Seu nome"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="nome@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Senha</label>
+                  <input id="password" type="password" required />
+                </div>
+                <div class="form-group">
+                  <label for="confirmPassword">Confirme a Senha</label>
+                  <input id="confirmPassword" type="password" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <div class="divider"></div>
+                <div class="signup-link">
+                  Já tem uma conta? <a href="index.html">Login</a>
+                </div>
+              </div>
+            </form>
+            <div class="card-image">
+              <img src="/src/images/image.png" alt="Sign Up Image" />
+            </div>
+          </div>
+        </div>
+        <div class="terms">
+          Ao se inscrever, você concorda com nossos
+          <a href="#">Termos de serviço</a> e a
+          <a href="#">Política de Privacidade </a>.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
