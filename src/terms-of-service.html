@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service - Acme Inc</title>
+    <style>
+      :root {
+        --primary: #2a4365;
+        --secondary: #4299e1;
+        --background: #f7fafc;
+        --card-background: #ffffff;
+        --text: #2d3748;
+        --muted-text: #718096;
+        --border: #e2e8f0;
+        --accent: #ebf8ff;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background-color: var(--background);
+        color: var(--text);
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+
+      .header {
+        background-color: var(--primary);
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+      }
+
+      .header p {
+        margin: 10px 0 0;
+        opacity: 0.8;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .terms-card {
+        background-color: var(--card-background);
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        margin-bottom: 40px;
+      }
+
+      .terms-section {
+        padding: 32px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .terms-section:last-child {
+        border-bottom: none;
+      }
+
+      .terms-section h2 {
+        color: var(--primary);
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .terms-section h2::before {
+        content: "";
+        display: inline-block;
+        width: 4px;
+        height: 24px;
+        background-color: var(--secondary);
+        margin-right: 12px;
+        border-radius: 2px;
+      }
+
+      .terms-section p {
+        line-height: 1.7;
+        color: var(--text);
+        font-size: 16px;
+        margin: 16px 0;
+      }
+
+      .terms-section a {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .terms-section a:hover {
+        color: var(--primary);
+        text-decoration: underline;
+      }
+
+      .highlighted-info {
+        background-color: var(--accent);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+
+      .back-link {
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 12px 24px;
+        background-color: transparent;
+        color: var(--primary);
+        border: 2px solid var(--primary);
+        text-decoration: none;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        font-weight: 500;
+      }
+
+      .back-btn:hover {
+        background-color: var(--primary);
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        .header {
+          padding: 30px 0;
+        }
+
+        .terms-section {
+          padding: 24px;
+        }
+
+        .terms-section h2 {
+          font-size: 20px;
+        }
+
+        .terms-section p {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Terms of Service</h1>
+        <p>Last updated: February 5, 2025</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="terms-card">
+        <div class="terms-section">
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By accessing or using the Acme Inc service, you agree to be bound by
+            these Terms of Service and all applicable laws and regulations. If
+            you do not agree with any part of these terms, you may not use our
+            service.
+          </p>
+        </div>
+
+        <div class="terms-section">
+          <h2>2. Use of Service</h2>
+          <p>
+            You agree to use the service only for purposes that are permitted by
+            these Terms and any applicable law, regulation, or generally
+            accepted practices or guidelines in relevant jurisdictions.
+          </p>
+        </div>
+
+        <div class="terms-section">
+          <h2>3. User Accounts</h2>
+          <p>
+            To access some features of the service, you may be required to
+            create an account. You are responsible for maintaining the
+            confidentiality of your account and password.
+          </p>
+        </div>
+
+        <div class="terms-section">
+          <h2>4. Privacy Policy</h2>
+          <p>
+            Your use of the service is also governed by our Privacy Policy,
+            which can be found <a href="privacy-policy-page.html">here</a>.
+          </p>
+        </div>
+
+        <div class="terms-section">
+          <h2>5. Modifications to Service</h2>
+          <p>
+            Acme Inc reserves the right to modify or discontinue, temporarily or
+            permanently, the service with or without notice at any time.
+          </p>
+        </div>
+
+        <div class="terms-section">
+          <h2>6. Termination</h2>
+          <p>
+            We may terminate or suspend access to our service immediately,
+            without prior notice or liability, for any reason whatsoever,
+            including without limitation if you breach the Terms.
+          </p>
+        </div>
+      </div>
+
+      <div class="back-link">
+        <a href="index.html" class="back-btn">Back to Home</a>
+      </div>
+    </div>
+    <script src="/js/page-transition.js"></script>
+  </body>
+</html>
